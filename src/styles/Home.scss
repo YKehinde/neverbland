@@ -1,0 +1,38 @@
+.grid {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  h2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .grid-item {
+    position: relative;
+    width: 45%;
+    margin: 0 2% 2%;
+    word-wrap: break-word;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    h3 {
+      max-width: 150px;
+      text-align: left;
+      margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 320px) {
+      width: 29%;
+    }
+
+    @media only screen and (min-width: 768px) {
+      width: 15%;
+    }
+  }
+}

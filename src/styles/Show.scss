@@ -1,0 +1,58 @@
+.show {
+  width: 90%;
+  margin: -150% auto;
+
+  @media only screen and (min-width: 320px) {
+    margin: -60% auto;
+  }
+
+  @media only screen and (min-width: 768px) {
+    margin: -30% auto;
+  }
+
+  .show-header {
+    @media only screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
+  
+  .show-details {
+    text-align: left;
+    &--primary {
+      width: 70%;
+    }
+    &--secondary {
+      width: 100%;
+    }
+  }
+
+  .show-image {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+
+    @media only screen and (min-width: 768px) {
+      width: 30%;
+      padding: 2%;
+    }
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .show-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    h3 {
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) {
+      width: 50%;
+    }
+  }
+
+  .show-stars {}
+}
